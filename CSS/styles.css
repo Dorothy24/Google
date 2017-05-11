@@ -1,0 +1,111 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+.button {
+    background-color: #f2f2f2;;
+    border: #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 15px 32px;
+    min-width: 54px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 11px 4px;
+    cursor: default;
+}
+.center {
+    display: block;
+    text-align: -webkit-center;
+}
+.header {
+    float: right;
+}
+.header img{
+    height: 20px;
+    width: 20px;
+}
+.signin a{
+    background: #4285f4;
+    text-decoration: none;
+    color: #fff;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    padding: 8px 15px;
+}
+.header ul{
+text-decoration: none;
+}
+.header li{
+    list-style-type: none;
+    float: left;
+}
+.clearfix {
+    clear: both;
+}
+.menu a{
+    text-decoration: none;
+    color: #000;
+}
+.menu a:hover{
+    text-decoration: underline;
+}
+.content{
+    margin: 150px 0px 35px 0px;
+}
+.content img{
+    /*background-size: 272px 92px;*/
+    width: 300px;
+}
+.content input{
+    width: 600px;
+    height: 35px;
+    cursor: auto;
+    box-shadow: 0px 2px 2px 1px #929295;
+}
+.content input:focus {
+    outline: none;
+}
+.search{
+    margin: 20px 0px 20px 0px;
+}
+.search div{
+    position: relative;
+}
+.search img {
+    height: 27px;
+    width: 25px;
+    position: absolute;
+    right: 370px;
+    top: 7px;
+}
+
+.footer {
+    position: absolute; 
+    bottom: 0px; 
+    left: 0px; 
+    width: 100%; 
+    color: #222; 
+    background: #E7E3E3; 
+    line-height: 40px;
+    min-width: 980px; 
+    font-size: 10pt; 
+    font-family: arial,sans-serif;
+}
+.footer-right {
+    float: right;
+}
+.footer a{
+    text-decoration: none;
+    color: #000;
+}
+.footer a:hover {
+     text-decoration: underline;
+}
+.Google-offer{
+    margin: 20px 0px 20px 0px;
+}
