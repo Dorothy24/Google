@@ -26,8 +26,11 @@ body {
     float: right;
 }
 .header img{
-    height: 20px;
-    width: 20px;
+    height: 29px;
+    /*width: 27px;*/
+    position: relative;
+    right: 0px;
+    top: -6px;
 }
 .signin a{
     background: #4285f4;
