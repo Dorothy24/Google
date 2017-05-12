@@ -10,11 +10,11 @@ body {
     font-family: arial,sans-serif;
     font-size: 13px;
     font-weight: bold;
-    padding: 15px 32px;
+    padding: 10px 13px;
     min-width: 54px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 13px;
     margin: 11px 4px;
     cursor: default;
 }
@@ -108,4 +108,11 @@ text-decoration: none;
 }
 .Google-offer{
     margin: 20px 0px 20px 0px;
+}
+.india img{
+    height: 19px;
+    width: 45px;
+    left: 755px;
+    position: absolute;
+    top: 275px;
 }
