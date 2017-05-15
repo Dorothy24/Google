@@ -2,6 +2,10 @@ body {
     font-family: arial,sans-serif;
     font-size: 13px;
 }
+/*.wrapper {
+        width: 1170px;
+        margin: 0 auto;
+    } */
 .button {
     background-color: #f2f2f2;;
     border: #f2f2f2;
@@ -25,12 +29,17 @@ body {
 .header {
     float: right;
 }
+
 .header img{
     height: 29px;
     /*width: 27px;*/
     position: relative;
     right: 0px;
     top: -6px;
+}
+ .india {
+        position: relative;
+    
 }
 .signin a{
     background: #4285f4;
@@ -43,9 +52,16 @@ body {
 .header ul{
 text-decoration: none;
 }
+.search-box input[type='text'] {
+    background: url('../Images/mic.png') no-repeat top center;
+}
+.search-box {
+    width: 600px;
+}
 .header li{
     list-style-type: none;
     float: left;
+    padding-right: 1em;
 }
 .clearfix {
     clear: both;
@@ -83,7 +99,7 @@ text-decoration: none;
     height: 27px;
     width: 25px;
     position: absolute;
-    right: 370px;
+    right: 0;
     top: 7px;
 }
 
@@ -98,24 +114,39 @@ text-decoration: none;
     min-width: 980px; 
     font-size: 10pt; 
     font-family: arial,sans-serif;
+    padding-left: 2em;
 }
 .footer-right {
     float: right;
+    padding-right: 3em;
+}
+.footer-right a{
+    padding-left: 1em;
 }
 .footer a{
     text-decoration: none;
     color: #000;
+}
+.footer a{
+    padding-right: 1em;
 }
 .footer a:hover {
      text-decoration: underline;
 }
 .Google-offer{
     margin: 20px 0px 20px 0px;
+    padding-left: 1em;
 }
 .india img{
     height: 19px;
     width: 45px;
-    left: 755px;
+    left: 794px;
     position: absolute;
-    top: 286px;
+    top: -30px;
 }
+.language a{
+    padding-right: 0.6em;
+}
+
+
+
